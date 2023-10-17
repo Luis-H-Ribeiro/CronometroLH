@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ff3366, #6633ff);
+    font: normal 15pt Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: 1em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.625);
+}
+
+.cronometro {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    position: relative;
+}
+
+#tempo {
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+    color: #ffe600;
+    background-color: black;
+    position: absolute;
+    top: -30px;
+    left: 45px;
+    right: 0;
+    width: 150px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 30px 5px 5px 5px;
+    border-radius: 30px;
+    padding: 0.5em;
+    color: white;
+}
+
+#iniciar {
+    background-color: rgb(0, 173, 9);
+}
+
+#pausar {
+    background-color: rgb(170, 0, 0);
+}
+
+#zerar {
+    background-color: grey;
+}
